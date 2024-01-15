@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+header.menu{
+background-color: black;
+color: white;
+display: flex;
+position: sticky;
+left: 0;
+right: 0;
+top: 0;
+z-index: 1;
+}
+header>div>a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 19px;
+   font-size: 14px;
+    display: inline-block;
+}
+header>div>a:hover{
+    background-color: white;
+    color: black;
+}
+div.long{
+background-color: rgb(6, 160, 160);
+}
+div.search{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+div.search>a:hover{
+    background-color: rgb(6, 160, 160) ;
+    color: white;
+}

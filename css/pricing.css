@@ -1,0 +1,64 @@
+section#pricing{
+    text-align: center;
+    margin-block: 56px;
+}
+section#pricing>h2{
+padding: 16px;
+}
+section#pricing>p{
+    padding: 16px;
+}
+section#pricing>div.pricingPlan{
+    display: flex;
+    
+}
+section#pricing>div.pricingPlan>div.plan{
+    flex: 1;
+    margin: 8px;
+}
+section#pricing>div.pricingPlan>div.plan>h3{
+    background-color: black;
+    color: white;
+    padding-block: 36px;
+    font-size: 24px;
+}
+section#pricing>div.pricingPlan>div.plan>*{
+    border: 1px solid rgba(212, 210, 210, 0.774);
+    border-top: 0px;
+    
+}
+
+section#pricing>div.pricingPlan>div.plan>p{
+    padding: 16px;
+}
+section#pricing>div.pricingPlan>div.plan>b{
+    padding-top: 32px;
+}
+section#pricing>div.pricingPlan>div.plan>div{
+    padding: 24px;
+    padding-top: 36px;
+}
+section#pricing>div.pricingPlan>div.plan>div>b{
+    font-size: 24px;
+   
+}
+section#pricing>div.pricingPlan>div.plan>div>p{
+padding-top: 16px;
+}
+section#pricing>div.pricingPlan>div.plan>p>a{
+    text-decoration: none;
+    background-color: rgb(14, 168, 168);
+    color: white;
+    padding: 16px 24px;
+    display: inline-block;
+}
+section#pricing>div.pricingPlan>div.plan>p>a:hover{
+    background-color: rgba(168, 168, 168, 0.877);
+    color:black;
+}
+section#pricing>div.pricingPlan>div.pro>h3{
+background-color: grey;
+}
+section#pricing>div.pricingPlan>div.plan>p#signUp{
+    background-color: rgb(238, 238, 238);
+}

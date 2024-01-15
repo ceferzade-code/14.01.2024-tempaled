@@ -1,0 +1,62 @@
+section#contact{
+    background-color: rgba(212, 212, 212, 0.856);
+    display: flex;
+}
+section#contact>div.contactUs{
+flex: 2;
+margin: 72px 16px;
+}
+section#contact>div.contactUs>h1{
+    border-bottom: 5px solid rgb(12, 148, 148) ;
+    display: inline-block;
+}
+section#contact>div.contactUs>h3{
+    padding-block: 16px;
+}
+section#contact>div.contactUs>p{
+    padding-bottom: 16px;
+}
+section#contact>div.contactUs>p>i{
+    color: rgb(12, 148, 148) ;
+}
+section#contact>div.address{
+flex: 3;
+background-color: white;
+margin: 56px 16px;
+}
+section#contact>div.address>form>input{
+    width: 94%;
+    padding: 12px;
+    border: 0;
+    border-bottom: 1px solid rgba(151, 150, 150, 0.767);
+/* margin-left: 16px; */
+
+}
+section#contact>div.address>form>input#checkbox{
+    width: auto;
+    padding-bottom: 0;
+}
+
+section#contact>div.address>form{
+    padding: 16px;
+    position: relative;
+}
+section#contact>div.address>form>a.send{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 12px 16px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    right: 16px;
+}
+div.photo>img{
+    width: 100%;
+}
+div.photo{
+    background-color: black;
+}
+
+
+

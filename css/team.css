@@ -1,0 +1,24 @@
+section#team{
+    text-align: center;
+    padding-block: 56px;
+  
+}
+section#team>h1{
+    /* padding: 24px; */
+    padding-top: 24px;
+}
+section#team>p{
+    padding: 24px;
+}
+section#team>div.teamPhoto{
+    display: flex;
+}
+section3Team>div.teamPhoto>div{
+    flex: 1;
+}
+section#team>div.teamPhoto>div>img{
+    border-radius: 50px;
+}
+section#team>div.teamPhoto>div>h3{
+    padding: 24px;
+}

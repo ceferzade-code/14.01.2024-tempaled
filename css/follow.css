@@ -1,0 +1,35 @@
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-block: 56px;
+    position: relative;
+}
+footer>h3{
+    padding-bottom: 16px;
+}
+footer>div.follow>a>i{
+    color: white;
+    background-color: rgb(14, 168, 168);
+    padding: 8px ;
+    display: inline-block;
+    font-size: 24px;
+}
+footer>div.follow>a>i:hover{
+    color: black;
+    background-color: white;
+}
+footer>p{
+    padding: 16px;
+    padding-bottom: 24px;
+}
+footer>p>a{
+    color: white;
+    text-decoration: none;
+}
+footer>a.iccon{
+    position: absolute;
+    right: 24px;
+}
+
+

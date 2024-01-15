@@ -1,0 +1,21 @@
+nav.link{
+    width: 240px;
+ transition: 2s;
+ position: absolute;
+ left: 0;
+ top: 0;
+    
+}
+nav.link>a{
+    text-decoration: none;
+    font-size: 48px;
+    padding: 8px 0px;
+    display: inline-block;
+    color: black;
+    width: 100%;
+   
+    
+}
+nav.link>a:hover{
+    background-color: grey;
+}
