@@ -30,6 +30,10 @@ footer>p>a{
 footer>a.iccon{
     position: absolute;
     right: 24px;
+    bottom: 110px;
+}
+footer>a.iccon:hover{
+    color: red;
 }
 
 

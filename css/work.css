@@ -5,14 +5,16 @@ section#work{
     padding-inline: 8px;
     padding-block: 56px;
     position: relative;
+   
 }
 section#work>div{
     flex: 1;
     background-color: white;
     color: black;
-    overflow: auto;
+    /* overflow: auto; */
     /* padding-inline: 16px; */
    margin: 8px;
+   
 
 }
 section#work>div.ourWork{
@@ -24,7 +26,7 @@ section#work>div.ourWork>h2{
     padding-block: 24px;
 }
 section#work>div.customer{
-    height: 350px;
+    height: 30%px;
    
 }
 section#work>div.customer>h2{

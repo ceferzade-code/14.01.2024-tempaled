@@ -13,7 +13,16 @@ section#team>p{
 section#team>div.teamPhoto{
     display: flex;
 }
-section3Team>div.teamPhoto>div{
+section#team>div.teamPhoto>div.teamJpg1{
+flex: 1;
+}
+section#team>div.teamPhoto>div.teamJpg2{
+    flex: 1;
+}
+section#team>div.teamPhoto>div.teamJpg3{
+    flex: 1;
+}
+section#team>div.teamPhoto>div.teamJpg4{
     flex: 1;
 }
 section#team>div.teamPhoto>div>img{
